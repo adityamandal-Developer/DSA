@@ -1,16 +1,20 @@
 'use strict';
 
 const arr1 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-console.log(arr1);
+console.log("Orignal Array " + arr1);
 
 
-//Modern Javascript
+/**
+ @Modern Way
+**/
 
-// const removeDup = [...new Set(arr1)]
-// console.log(removeDup);
+const removeDup1 = [...new Set(arr1)]
+console.log(removeDup1);
 
 
-//classic way
+/**
+ @Classic Way
+**/
 const removeDup = [];
 for (let i = 0; i < arr1.length; i++) {
     let currentValue = arr1[i]
