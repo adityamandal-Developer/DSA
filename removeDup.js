@@ -1,7 +1,16 @@
 'use strict';
 
 const arr1 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+console.log(arr1);
 
+
+//Modern Javascript
+
+// const removeDup = [...new Set(arr1)]
+// console.log(removeDup);
+
+
+//classic way
 const removeDup = [];
 for (let i = 0; i < arr1.length; i++) {
     let currentValue = arr1[i]
@@ -10,5 +19,4 @@ for (let i = 0; i < arr1.length; i++) {
     }
 }
 
-console.log(arr1);
 console.log(removeDup);
