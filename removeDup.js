@@ -15,6 +15,7 @@ console.log(removeDup1);
 /**
  @Classic Way
 **/
+
 const removeDup = [];
 for (let i = 0; i < arr1.length; i++) {
     let currentValue = arr1[i]
