@@ -1,0 +1,13 @@
+{
+  "name": "stack",
+  "version": "1.0.0",
+  "main": "arrayBasedStack.js",
+  "scripts": {
+    "sty": "nodemon valid_parentheses",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

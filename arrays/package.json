@@ -1,0 +1,12 @@
+{
+  "name": "arrays",
+  "version": "1.0.0",
+  "main": "decreaseSequence.js",
+  "scripts": {
+    "start": "nodemon firstMissingPositive.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
