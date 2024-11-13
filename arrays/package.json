@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "decreaseSequence.js",
   "scripts": {
-    "start": "nodemon firstMissingPositive.js"
+    "start": "nodemon twoSum.js"
   },
   "keywords": [],
   "author": "",
